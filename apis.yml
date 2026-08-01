@@ -1,8 +1,25 @@
 aid: sunday-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunday-robotics.png
 name: Sunday Robotics
-description: 'Sunday Robotics is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: physical-ai. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Sunday Robotics is a consumer robotics company building Memo, an autonomous
+  home robot that handles household chores such as clearing dishes, loading the dishwasher,
+  pulling espresso shots, and folding laundry. The robot is trained on human demonstrations
+  captured with the company''s proprietary Skill Capture Glove and runs on the ACT family
+  of robot foundation models. Founded as a physical-AI company and backed by Bain Capital
+  Ventures, Sunday is pre-launch with a beta program opening in late 2026. As of this
+  profile the company publishes no public API, developer portal, SDK, or technical
+  documentation; this record captures its public web and security surface only.'
 url: https://raw.githubusercontent.com/api-evangelist/sunday-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Physical Ai
+- Robotics
+- Home Automation
+- Consumer Hardware
+- Artificial Intelligence
+- Foundation Models
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.sunday.ai/
+- type: Blog
+  url: https://www.sunday.ai/blog
+- type: SignUp
+  url: https://www.sunday.ai/beta-program
+- type: TermsOfService
+  url: https://www.sunday.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.sunday.ai/privacy-policy
+- type: DomainSecurity
+  url: security/sunday-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
